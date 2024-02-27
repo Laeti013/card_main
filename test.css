@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  header img, footer img {
+    width: 100%;
+    height: auto;
+  }
+  
+  main, footer {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+  }
